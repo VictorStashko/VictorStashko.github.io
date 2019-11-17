@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600|Roboto:500&display=swap');
+
+/* @font-face{
+
+    font-family: 'Roboto-Italic';
+    
+    src: url('../fonts/Roboto-ThinItalic.eot');
+    
+    src: url('../fonts/Roboto-ThinItalic.ttf') format('ttf'),
+    
+    url('../fonts/Roboto-ThinItalic.woff') format('woff');
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+    } */
+
+
+h3 {
+    color: blue;
+}
+
+.first-block {
+    /* background-color: red;  */
+}
+
+#first {
+    color: blue;
+}
+.green {
+    color: green;
+}
+.test {
+    padding: 20px; 
+    margin: 30px;
+    border: 1px solid red;
+    display: inline-block;
+}
+
+.color-blue {
+    color: blue;
+}
+
+.text-test {
+    font-family: Roboto-Italic, sans-serif;
+    color: #03a9f4;
+}
+
+.btnnn {
+    font-family: Roboto Italic;
+    font-size: 20px;
+    padding: 20px 30px 20px 30px;
+    background-color: #fff;
+    border: 2px solid #626262;
+}

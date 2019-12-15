@@ -1,20 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:600|Roboto:500&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:600|Roboto:500&display=swap'); */
 
-/* @font-face{
+@font-face{
 
-    font-family: 'Roboto-Italic';
+    font-family: 'Playfair_Display_Regular';
     
-    src: url('../fonts/Roboto-ThinItalic.eot');
+    src: url('../fonts/PlayfairDisplay-Regular.eot');
     
-    src: url('../fonts/Roboto-ThinItalic.ttf') format('ttf'),
+    src: url('../fonts/PlayfairDisplay-Regular.eot') format('eot'),
     
-    url('../fonts/Roboto-ThinItalic.woff') format('woff');
+    url('../fonts/PlayfairDisplay-Regular.woff') format('woff'),
+    
+    url('../fonts/PlayfairDisplay-Regular.ttf') format('ttf');
     
     font-weight: normal;
     
     font-style: normal;
     
-    } */
+    }
 
 
 h3 {
@@ -43,7 +45,8 @@ h3 {
 }
 
 .text-test {
-    font-family: Roboto-Italic, sans-serif;
+    font-family: Playfair_Display_Regular, sans-serif;
+    font-size: 20px;
     color: #03a9f4;
 }
 
@@ -53,4 +56,32 @@ h3 {
     padding: 20px 30px 20px 30px;
     background-color: #fff;
     border: 2px solid #626262;
+}
+
+.child {
+    position: absolute;
+    top: -50px;
+    left: -20px;
+    width: 500px;
+    height: 500px;
+    z-index: 1;
+    background-color: red;
+}
+.child2 {
+    position: absolute;
+    z-index: 2;
+    top: -60px;
+    left: -30px;
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+}
+
+.wrapper {
+    margin-top: 200px;
+    margin-left: 100px;
+    position: relative;
+    background-color: black;
+    height: 500px;
+    width: 500px;
 }

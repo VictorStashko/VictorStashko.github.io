@@ -1,0 +1,17 @@
+.title {
+    color: blue;
+}
+#title {
+    color: green;
+}
+nav {
+    /* background-color: brown; */
+}
+/* далі буде опис класу text */
+.test {
+    width: 200px;
+    height: 20px;
+    margin: 50px;
+    padding-left: 10px;
+    border: 1px solid #03a9f4 ;
+}

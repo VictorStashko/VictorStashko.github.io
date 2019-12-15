@@ -1,0 +1,25 @@
+.block {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.parent {
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url();
+}
+
+.a{
+    background-color: red;
+}
+.b {
+    background-color: blue;
+}
+.c {
+    background-color: yellow;
+}

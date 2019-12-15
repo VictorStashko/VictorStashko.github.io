@@ -1,0 +1,26 @@
+.parent {
+    position: relative;
+    background-image:  url(../img/girl.jfif);
+    width: 250px;
+    height: 200px;
+}
+
+.child {
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    background-image: linear-gradient(to bottom, rgb(240, 34, 116), rgb(238, 48, 107), rgb(237, 63, 99), rgb(235, 77, 90), rgb(233, 91, 81), rgb(232, 106, 72), rgb(230, 120, 64), rgb(229, 135, 55), rgb(227, 149, 46), rgb(225, 163, 37), rgb(224, 178, 29), rgb(222, 192, 20));
+    top: -20px;
+    opacity: 0.8;
+    left: -20px;
+    display: none;
+}
+
+.parent:hover .child {
+    display: block;
+}
+
+.small-img {
+    height: 40px;
+    width: 40px;
+}

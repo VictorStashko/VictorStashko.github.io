@@ -23,3 +23,6 @@ img {
 .btn-disable{
     background-color: rgb(204, 201, 219);
 }
+input[name = "idk"]  :enabled{
+    color: blue;
+}

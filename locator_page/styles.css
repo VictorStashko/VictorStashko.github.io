@@ -1,4 +1,4 @@
-img {
+form img {
     display: none;
 }
 .btns {
@@ -25,4 +25,19 @@ img {
 }
 input[name = "idk"]  :enabled{
     color: blue;
+}
+
+.image, .base {
+    width: 50%;
+    height: 300%;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: #328cd1;
+}
+
+.ball img {
+    display: block;
 }

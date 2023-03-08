@@ -41,3 +41,10 @@ input[name = "idk"]  :enabled{
 .ball img {
     display: block;
 }
+
+button[data-testid*="directions"] {
+    background-color: rgb(72, 191, 185);
+}
+button[data-testid*="directions"]:hover {
+    background-color: rgb(103, 218, 36);
+}

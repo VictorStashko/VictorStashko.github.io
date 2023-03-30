@@ -4,4 +4,4 @@ btnPrimary.addEventListener('click',()=>{
     btnPrimary.style.backgroundColor = '#FFA500';
 });
 
-obj = page.evaluate("({foo: 'bar'})")
+const obj = { foo: 'bar' };

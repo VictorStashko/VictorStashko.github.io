@@ -4,4 +4,3 @@ btnPrimary.addEventListener('click',()=>{
     btnPrimary.style.backgroundColor = '#FFA500';
 });
 
-const obj = { foo: 'bar' };

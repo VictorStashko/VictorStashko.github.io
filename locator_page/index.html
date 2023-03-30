@@ -89,6 +89,14 @@
     <div class="file_upload">
         <input type="file">
     </div>
+    <div class="component"></div>
     <script src="script.js"></script>
+    <script>
+        window.onload = function() {
+          // Створюємо об'єкт з властивістю 'loaded'
+          var component = document.querySelector('.component');
+          component.loaded = true;
+        };
+      </script>
 </body>
 </html>
